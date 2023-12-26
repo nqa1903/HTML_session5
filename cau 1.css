@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+
+.user_name , .user_email , .user_fav{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding : 4px 16px;
+}
+
+.width_set{
+    width: 20%;
+}
+
+.user_fav > .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
